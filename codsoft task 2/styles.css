@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: #1e1f26; /* Dark background */
+    color: #ddd;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #222;
+    color: #ddd;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-bar .btn-small {
+    background: #f39c12;
+    color: #1e1f26;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #282c34;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+header .btn {
+    background: #f39c12;
+    color: #1e1f26;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    animation: fadeIn 2s ease-out;
+}
+
+.hero-buttons .btn {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #282c34;
+}
+
+.features .feature {
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    background: #333;
+    border-radius: 8px;
+    color: #f39c12;
+}
+
+/* Services Section */
+.services {
+    background: #1e1f26;
+    padding: 60px 20px;
+    color: white;
+}
+
+.services .service-card img {
+    border-bottom: 3px solid #f39c12;
+}
